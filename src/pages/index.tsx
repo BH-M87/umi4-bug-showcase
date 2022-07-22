@@ -1,4 +1,12 @@
+import { history } from 'umi'
 import yayJpg from '../assets/yay.jpg';
+
+export const consoleHistory = () => {
+  console.log('history from umi under pages folder', history);
+};
+
+// Bug 1: the history object consoled here is correct but value is undefined in app.ts
+consoleHistory();
 
 export default function HomePage() {
   return (
