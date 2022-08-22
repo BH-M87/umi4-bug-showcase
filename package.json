@@ -1,15 +1,15 @@
 {
   "private": true,
-  "author":"Yonggu <xuheng.lxh@alibaba-inc.com>",
+  "author": "Yonggu <xuheng.lxh@alibaba-inc.com>",
   "scripts": {
     "dev": "umi dev",
-    "build": "umi build",
+    "build": "UMI_ENV=new umi build",
     "postinstall": "umi setup",
     "setup": "umi setup",
     "start": "npm run dev"
   },
   "dependencies": {
-    "umi": "^4.0.8"
+    "umi": "^4.0.13"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",

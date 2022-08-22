@@ -18,6 +18,9 @@ export default function HomePage() {
       <p>
         To get started, edit <code>pages/index.tsx</code> and save to reload.
       </p>
+      <p>
+        Current umi environment: <code>{process.env.UMI_ENV}</code>
+      </p>
     </div>
   );
 }
